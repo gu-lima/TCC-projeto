@@ -134,8 +134,8 @@ section.quem-somos {
 }
 
 section.quem-somos {
+    padding: 20px 0px;
     width: 100%;
-    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -212,21 +212,136 @@ p {
 
 section.adote {
     background-color: var(--primary-color);
-    padding: 80px 20px;
     text-align: center;
-}
-section img {
-    width: 100%;
-    height: auto;
+    padding: 0px 20px 80px 20px;
 }
 
-.card{
-    display: flex;
-    background-color: var(--secondary-color);
-    border-radius: 20px;
-    padding: 20px 0px;
+section.adote h2 {
+    display: block;
+    padding: 40px;
+    text-align: center;
+    color: var(---texto);
+}
+
+section img {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.card {
+    background-color: rgb(182, 182, 182);
     width: 300px;
-    height: 400px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.card h3,
+p {
+    padding: 0px 10px;
+    text-align: justify;
+}
+
+.card h3 {
+    margin-top: 4px;
+}
+
+.btn {
+    padding: 10px 100px;
+    background-color: var(--secondary-color);
     color: var(---branco);
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: var(---texto);
+    color: var(--primary-color);
+    font-weight: 400;
+    border: none;
+    cursor: pointer;
+    scale: 1.04;
+}
+
+/* CONTATO */
+/* REVISAR COM ATENÇÃO PARTE CONTATO FEITO GPT */
+/* CONTATO */
+section.contato {
+    width: 100%;
+    background-color: var(--secondary-color);
+    padding: 60px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+section.contato h2 {
+    color: var(---branco);
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+/* Formulário */
+section.contato form {
+    background-color: var(--primary-color);
+    padding: 30px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 500px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+/* Campos */
+.campo {
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.campo label {
+    margin-bottom: 6px;
+    font-weight: bold;
+    color: var(---texto);
+}
+
+.campo input,
+.campo textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    outline: none;
+    transition: border 0.3s;
+}
+
+.campo input:focus,
+.campo textarea:focus {
+    border: 1px solid var(--secondary-color);
+}
+
+/* Botão */
+section.contato button {
+    background-color: var(--secondary-color);
+    color: var(---branco);
+    border: none;
+    padding: 12px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
     transition: 0.3s;
+}
+
+section.contato button:hover {
+    background-color: var(---texto);
+    color: var(--primary-color);
+    scale: 1.03;
+}
+
+/* FOOTER */
+
+footer{
+    width: 100%;
+    background-color: var(--primary-color);
 }
