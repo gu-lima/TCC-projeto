@@ -7,43 +7,47 @@
     <title>Site dog</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
-
 </head>
 
 <body>
     <header>
-        <a href="#">
-            <img class="logo" src="assets/bangboo.png" alt="logo">
-        </a>
-        <nav>
-            <ul class="menu">
+        <div class="logo">
+            <a href="#">
+                <img class="logo" src="assets/bangboo.png" alt="logo">
+            </a>
+        </div>
+        <nav class="navbar">
+            <ul>
                 <li><a href="#">Sobre</a></li>
                 <li><a href="#">Quem somos</a></li>
                 <li><a href="#">Fale conosco</a></li>
-                <li><a href="#" class="minha-conta">minha conta</a>
-                </li>
+                <button class="btn-navbar" onclick="window.location.href='teste01.html'">minha conta</button>
             </ul>
         </nav>
     </header>
     <main>
-        <div class="interface">
+        <section class="inicio">
+            <div class="interface">
 
-            <section class="inicio">
-                <div class="texto-inicio">
-                    <h1>What is Lorem Ipsum?</h1>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                    <a href="#">como ajudar?</a>
+                <div class="espaco espaco-inicio">
+                    <div class="inicio-texto">
+                        <h1>What is Lorem Ipsum?</h1>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                        <a class="inicio-botao" href="#">como ajudar?</a>
+                    </div>
+                    <div class="inicio-imagem">
+                        <img src="assets/dog 1.jpg" alt="foto principal">
+                    </div>
                 </div>
+            </div>
 
-                <div class="foto-principal">
-                    <img src="assets/Penguinboo_Portrait.webp" alt="foto principal">
-                </div>
+        </section>
 
-            </section>
+        <section class="quem-somos">
+            <div class="interface">
 
-            <section class="quem-somos">
-
-                    <div class="texto-quem-somos">
+                <div class="espaco espaco-quem-somos">
+                    <div class="quem-somos-texto">
                         <h2>Quem somos</h2>
                         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
                             been
@@ -55,134 +59,156 @@
                             scrambled it to make a type specimen book. It has survived not only five.</p>
                     </div>
 
-                    <div class="foto-quem-somos">
-                        <img src="assets/dourado.webp" alt="foto quem somos">
-                    </div>
-            </section>
-
-            <section class="missao-visao-valores">
-                <h2>Missão, Visão e Valores</h2>
-                <div class="flex">
-                    <div class="box texto-box">
-                        <i class="bi bi-bullseye"></i>
-                        <h3>Missão</h3>
-
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
-                            has
-                            been
-                            the
-                            industry's standard dummy text ever since the 1500s, when an unknown printer took a
-                            galley
-                            of
-                            type
-                            and scrambled it to make a type specimen book. It has survived not only five.</p>
-                    </div>
-
-                    <div class="box texto-box">
-                        <i class="bi bi-eye"></i>
-                        <h3>Visão</h3>
-
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
-                            has
-                            been
-                            the
-                            industry's standard dummy text ever since the 1500s, when an unknown printer took a
-                            galley
-                            of
-                            type
-                            and scrambled it to make a type specimen book. It has survived not only five.</p>
-                    </div>
-
-                    <div class="box texto-box">
-                        <i class="bi bi-bar-chart-fill"></i>
-                        <h3>Valores</h3>
-
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
-                            has
-                            been
-                            the
-                            industry's standard dummy text ever since the 1500s, when an unknown printer took a
-                            galley
-                            of
-                            type
-                            and scrambled it to make a type specimen book. It has survived not only five.</p>
+                    <div class="quem-somos-imagem">
+                        <img src="assets/dog 3.jpg" alt="foto quem somos">
                     </div>
                 </div>
-            </section>
 
-            <section class="adote">
-                <h2>Adote um pet</h2>
-                <div class="flex">
+            </div>
+        </section>
+
+        <section class="missao-visao-valores">
+            <div class="interface">
+                <div class="espaco espaco-missao">
+
+                    <div class="texto-principal">
+                        <h2>Missão, Visão e Valores</h2>
+                    </div>
+                    <div class="flex">
+
+                        <div class="missao missao-texto">
+                            <i class="bi bi-bullseye"></i>
+                            <h3>Missão</h3>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+                                has
+                                been
+                                the
+                                industry's standard dummy text ever since the 1500s, when an unknown printer took a
+                                galley
+                                of
+                                type
+                                and scrambled it to make a type specimen book. It has survived not only five.</p>
+                        </div>
+
+                        <div class="missao visao-texto">
+                            <i class="bi bi-eye"></i>
+                            <h3>Visão</h3>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+                                has
+                                been
+                                the
+                                industry's standard dummy text ever since the 1500s, when an unknown printer took a
+                                galley
+                                of
+                                type
+                                and scrambled it to make a type specimen book. It has survived not only five.</p>
+                        </div>
+
+
+                        <div class="missao valores-texto">
+                            <i class="bi bi-bar-chart-fill"></i>
+                            <h3>Valores</h3>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+                                has
+                                been
+                                the
+                                industry's standard dummy text ever since the 1500s, when an unknown printer took a
+                                galley
+                                of
+                                type
+                                and scrambled it to make a type specimen book. It has survived not only five.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="adote">
+            <div class="interface interface-adote">
+                <div class="texto texto-principal">
+                    <h2>Adote um pet</h2>
+                </div>
+                <div class="card-flex">
 
                     <article class="card card1">
                         <img src="assets/dog 1.jpg" alt="doguinho">
 
-                        <h3>cão</h3>
-                        <p><strong>raça</strong></p>
-                        <p>Lorem Ipsum is simply dummy text of the printing and.</p>
+                        <div class="card-texto">
+                            <h3>cão</h3>
+                            <p><strong>raça</strong></p>
+                            <p>Lorem Ipsum is simply dummy text of the printing and.</p>
+                        </div>
 
-                        <button class="btn">Saiba mais</button>
+                        <button onclick="window.location.href='teste01.html'" class="btn-card">Saiba mais</button>
                     </article>
 
                     <article class="card card2">
                         <img src="assets/dog 2.jpg" alt="doguinho">
 
-                        <h3>cão</h3>
-                        <p><strong>raça</strong></p>
-                        <p>Lorem Ipsum is simply dummy text of the printing and.</p>
+                        <div class="card-texto">
+                            <h3>cão</h3>
+                            <p><strong>raça</strong></p>
+                            <p>Lorem Ipsum is simply dummy text of the printing and.</p>
+                        </div>
 
-                        <button class="btn">Saiba mais</button>
+                        <button onclick="window.location.href='teste01.html'" class="btn-card">Saiba mais</button>
                     </article>
 
                     <article class="card card3">
                         <img src="assets/dog 3.jpg" alt="doguinho">
 
-                        <h3>cão</h3>
-                        <p><strong>raça</strong></p>
-                        <p>Lorem Ipsum is simply dummy text of the printing and.</p>
+                        <div class="card-texto">
+                            <h3>cão</h3>
+                            <p><strong>raça</strong></p>
+                            <p>Lorem Ipsum is simply dummy text of the printing and.</p>
+                        </div>
 
-                        <button class="btn">Saiba mais</button>
+                        <button onclick="window.location.href='teste01.html'" class="btn-card">Saiba mais</button>
                     </article>
                 </div>
-            </section>
+            </div>
+        </section>
 
-            <section class="contato">
-                <h2>Fale conosco</h2>
+        <section class="contato">
+            <div class="interface">
+                <div class="form-container">
+                    <h2>Fale conosco</h2>
+                    <form action="#" method="post">
+                        <div class="campo">
+                            <label for="nome">Nome completo:</label>
+                            <input type="text" id="nome" name="nome" required>
+                        </div>
+                        <div class="campo">
+                            <label for="email">E-mail:</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="campo">
+                            <label for="telefone">Número de telefone:</label>
+                            <input type="tel" id="telefone" name="telefone" placeholder="(xx) xxxxx-xxxx">
+                        </div>
+                        <div class="campo">
+                            <label for="mensagem">Mensagem:</label>
+                            <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+                        </div>
+                        <button type="submit">Enviar</button>
+                    </form>
+                </div>
+            </div>
+        </section>
 
-                <form action="#" method="post">
-                    <div class="campo">
-                        <label for="nome">Nome completo:</label>
-                        <input type="text" id="nome" name="nome" required>
-                    </div>
-
-                    <div class="campo">
-                        <label for="email">E-mail:</label>
-                        <input type="email" id="email" name="email" required>
-                    </div>
-
-                    <div class="campo">
-                        <label for="telefone">Número de telefone:</label>
-                        <input type="tel" id="telefone" name="telefone" placeholder="(xx) xxxxx-xxxx">
-                    </div>
-
-                    <div class="campo">
-                        <label for="mensagem">Mensagem:</label>
-                        <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
-                    </div>
-
-                    <button type="submit">Enviar</button>
-                </form>
-            </section>
-        </div>
     </main>
+
     <footer>
         <div class="interface">
             <div class="caixa">
-                <div class="flex-footer">
-                    <a href="#">
-                        <img class="logo logo-footer" src="assets/bangboo.png" alt="logo">
+
+                <div class="caixa-logo">
+                    <a href="#" class="logo-link">
+                        <img class="logo-footer" src="assets/logo.png" alt="logo">
                     </a>
                     <p>Lorem Ipsum is simply dummy text of the printing.</p>
+
                     <ul class="redes-sociais">
                         <li>
                             <a href="#"><i class="bi bi-facebook"></i></a>
@@ -197,21 +223,15 @@
                     </ul>
                 </div>
 
-                <ul class="email-contato">
-                    <li>
-                        <a href="mailto:contato@seudominio.com">contatoemail@email.com</a>
-                    </li>
 
-                    <li>
-                        <p>São Paulo - SP</p>
-                    </li>
-                </ul>
+                <address>
+                    <a href="mailto:contato@seudominio.com">contatoemail@email.com</a>
+                    <p>São Paulo - SP</p>
+
+                </address>
             </div>
         </div>
     </footer>
-
 </body>
-
-
 
 </html>
